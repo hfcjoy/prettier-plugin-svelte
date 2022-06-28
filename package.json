@@ -11,7 +11,8 @@
         "build": "rollup -c",
         "test": "ava",
         "prepare": "npm run build",
-        "prepublishOnly": "npm test"
+        "prepublishOnly": "npm test",
+        "debug": "rettier --write --plugin=. \"test/samples/**.svelte\""
     },
     "repository": {
         "type": "git",
